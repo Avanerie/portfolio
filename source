@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://use.fontawesome.com/abd40759a3.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js</script>
+<script>https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js</script>
+<script>https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js</script>
+
+</head>
+<style>
+<body>
+p {
+  font-size:150%;
+}
+h2 {
+  padding-bottom: 20px;
+}
+.intro-header {
+  padding-top: 50px;
+  background: url("http://i1259.photobucket.com/albums/ii560/avanerie/techdraw_zpsjjmbqykn.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 800px;
+}
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.4)); 
+    height: 750px;
+}
+
+.intro-message {
+    position: relative;
+    color: white;
+  }
+
+#portret {
+  margin: 30px;
+  border-color: #006080;
+  border-width: 15px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.SectionAbout {
+  padding: 50px;
+  background-color: #e6e6e6;
+}
+.SectionPortfolio {
+  padding: 50px;
+  background-color: #d9d9d9;
+}
+.img-thumbnail {
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+.col-md-4 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.SectionContact {
+  padding: 50px;
+  background-color:#a6a6a6;
+}
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+#socbutton {
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+ 
+}
+#socbutton:hover {
+  transform:scale(1.1);
+}
+</style>
+
+<!--One page (scrolling)
+- buttons for social media
+- thumbnails of projects
+- navigation buttons for sections-->
+
+
+<!--Navigation menu responsive with menu-icon for smaller screens -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#Home">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--Home section 
+<div id="Home" class="container-fluid  SectionHome">
+  <div class="container-fluid bg-overlay"> -->
+    
+    <div class="intro-header">
+      <div class="bg-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="img-responsive" id="portret" src="
+  http://i1259.photobucket.com/albums/ii560/avanerie/portret_zpsrpp6lkrg.jpg" alt="portret" style="width:250px; height:250px;">
+            </div>
+            <div class="col-lg-8"></div>
+          </row>
+        </div> <!--End container -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="intro-message">
+                <h1>Mijn portfolio</h1>
+                <hr class="intro-divider">
+                <h3>StudioS4 voor technische tekeningen, <br>Artists Impressions,<br> 2D/ 3D visualisatie Lorem ipsum lorem ipsum <br>lorem ipsum.</h3>
+              </div>
+            </div>
+          <div class="col-lg-6"></div>
+          </div> <!--End row -->
+        </div> <!--End container -->
+      </div>  <!--End bg-overlay -->
+    </div>  <!--End intro-header -->
+    
+ 
+<!--About section -->
+<div id="About" class="container-fluid SectionAbout">
+  <h2>About</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+
+<!--Portfolio section -->
+<div id="Portfolio" class="container-fluid SectionPortfolio">
+  
+  <h2>Portfolio</h2>
+  <div class="row">
+    <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://i1259.photobucket.com/albums/ii560/avanerie/tekening6_zpscr94pd4l.jpeg">
+      <p>Project 1</p>
+    </div>
+    <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://i1259.photobucket.com/albums/ii560/avanerie/tekening6_zpscr94pd4l.jpeg">
+      <p>Project 2</p>
+    </div>
+    <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://i1259.photobucket.com/albums/ii560/avanerie/tekening6_zpscr94pd4l.jpeg">
+      <p>Project 3</p>
+    </div>
+   </div>
+  
+  <div class="row">
+    <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://i1259.photobucket.com/albums/ii560/avanerie/tekening6_zpscr94pd4l.jpeg">
+      <p>Project 4</p>
+    </div>
+    <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://i1259.photobucket.com/albums/ii560/avanerie/tekening6_zpscr94pd4l.jpeg">
+      <p>Project 5</p>
+    </div>
+    <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://i1259.photobucket.com/albums/ii560/avanerie/tekening6_zpscr94pd4l.jpeg">
+      <p>Project 6</p>
+    </div>
+     
+  </div>
+</div>
+
+<!--Contact section -->
+<div id="Contact" class="container-fluid SectionContact">
+  <h2>Contact</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br><br>
+  
+ <!-- footer -->
+  
+  <ul class="list-inline intro-social-buttons">
+    <li>
+      <a href="#" target="_blank" id="socbutton" class="btn btn-default btn-lg">
+        <i class="fa fa-twitter fa-fw"></i> 
+        <span class="network-name">Twitter</span>
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_blank" id="socbutton" class="btn btn-default btn-lg ">
+        <i class="fa fa-github fa-fw"></i> 
+        <span class="network-name">Github</span>
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_blank" id="socbutton" class="btn btn-default btn-lg">
+        <i class="fa fa-linkedin fa-fw"></i>
+        <span class="network-name">Linkedin</span>
+      </a>
+    </li>
+  </ul>
+</div>
+</body>
+</html>
